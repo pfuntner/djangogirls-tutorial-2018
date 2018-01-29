@@ -1,0 +1,1 @@
+I'm going through the [Djangogirl Tutorial](https://tutorial.djangogirls.org/en/) creating a small web app for posts.  I successfully opened the app from my Windows workstation and, as per the instructions, put the files here on Git in preparation for deployment to [Python Anywhere!](https://www.pythonanywhere.com)
