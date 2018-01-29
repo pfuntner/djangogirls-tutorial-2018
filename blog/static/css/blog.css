@@ -1,0 +1,20 @@
+body {
+  padding: 15px;
+}
+
+.italic {
+  font-style: italic;
+}
+
+.smaller {
+  font-size: .75em
+}
+
+.blue {
+  color: blue;
+}
+
+hr.thick {
+  background-color: black;
+  height: 2px;
+}
