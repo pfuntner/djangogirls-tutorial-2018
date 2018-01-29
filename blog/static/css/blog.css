@@ -18,3 +18,7 @@ hr.thick {
   background-color: black;
   height: 2px;
 }
+
+td, th {
+  padding: 5px;
+}

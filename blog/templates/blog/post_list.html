@@ -3,9 +3,15 @@
 {% block content %}
   {% for post in posts %}
     <hr class="thick"/>
-    <h2><a href="">{{ post.title }}</a></h2>
+    <h2><a href="{% url 'post_detail' pk=post.pk %}">{{ post.title }}</a></h2>
     <p>
-      <span class="blue smaller italic">By {{ post.author }} on {{ post.published_date }}</span>
+      <span class="blue smaller italic">By {{ post.author }}
+        {% if post.published_date %}
+          published on {{ post.published_date }}
+        {% else %}
+           (draft)
+        {% endif %}
+      </span>
       <br/>
       <br/>
       {{ post.text | linebreaksbr }}
